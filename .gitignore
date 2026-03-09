@@ -1,0 +1,9 @@
+.DS_Store
+*.html
+.claude/
+
+# Scan report artifacts
+*-report.json
+*-report.md
+*-report-*.html
+*-report-*.md

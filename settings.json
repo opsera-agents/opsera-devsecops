@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__opsera__architecture-analyze",
+      "mcp__opsera__security-scan",
+      "mcp__opsera__compliance-audit",
+      "mcp__opsera__sql-security",
+      "mcp__opsera__report-telemetry",
+      "mcp__opsera__opsera_report_telemetry"
+    ]
+  }
+}

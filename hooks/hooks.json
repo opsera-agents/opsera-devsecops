@@ -1,0 +1,16 @@
+{
+  "description": "Opsera pre-commit security gate — blocks git commits until a security scan passes",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/pre-commit-scan.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
